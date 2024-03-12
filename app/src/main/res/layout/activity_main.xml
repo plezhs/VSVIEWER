@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101823">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ico"
+        android:layout_margin="30dp"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/img"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginHorizontal="80dp"-->
+<!--        android:layout_marginVertical="180dp"-->
+<!--        android:src="@drawable/ss"/>-->
+
+    <EditText
+        android:id="@+id/riotid"
+        android:hint="Riot ID"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginBottom="430dp"
+        android:layout_marginTop="270dp"/>
+    <EditText
+        android:id="@+id/riotpw"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="350dp"/>
+
+    <Button
+        android:id="@+id/loginbt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="270dp"
+        android:background="@android:color/transparent"/>
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="270dp"/>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="180dp"
+        android:textColor="@color/white"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
