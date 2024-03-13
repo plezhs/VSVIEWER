@@ -6,6 +6,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.JsonObject
+import com.plezhs.myapplication.api
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val txt : TextView = findViewById(R.id.test)
         lgbtn.run {
             setOnClickListener {
-                val test : String = api.generateToken(111)
+                val test : String = api().generateToken(111)
                 // Toast 객체를 생성한다.
 //                val t1 = Toast.makeText(this@MainActivity,String.format("%s",test), Toast.LENGTH_SHORT)
 //                t1.show()
